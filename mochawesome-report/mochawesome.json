@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-08-03T17:30:24.406Z",
+    "end": "2022-08-03T17:33:12.614Z",
+    "duration": 168208,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c78e1e07-5ef4-4eec-bb84-fa5a5a6c5790",
+      "title": "",
+      "fullFile": "cypress\\integration\\login.feature",
+      "file": "cypress\\integration\\login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "76e23702-7207-4094-8139-a107e4c4696d",
+          "title": "Login Functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login with Valid Credentials",
+              "fullTitle": "Login Functionality Login with Valid Credentials",
+              "timedOut": null,
+              "duration": 114892,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c72b714a-6262-4d9c-88a1-ebb01696c1f1",
+              "parentUUID": "76e23702-7207-4094-8139-a107e4c4696d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with valid email and invalid password",
+              "fullTitle": "Login Functionality Login with valid email and invalid password",
+              "timedOut": null,
+              "duration": 11858,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "a7fe14b6-21c6-4f4f-b080-57a11e7a194e",
+              "parentUUID": "76e23702-7207-4094-8139-a107e4c4696d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with invalid email and valid password",
+              "fullTitle": "Login Functionality Login with invalid email and valid password",
+              "timedOut": null,
+              "duration": 7006,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f9adf246-4eb7-4aef-b861-f98d8c4af00f",
+              "parentUUID": "76e23702-7207-4094-8139-a107e4c4696d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with blank email and password fields",
+              "fullTitle": "Login Functionality Login with blank email and password fields",
+              "timedOut": null,
+              "duration": 5768,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "58c51a3c-7936-49e7-b928-903b1c416572",
+              "parentUUID": "76e23702-7207-4094-8139-a107e4c4696d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c72b714a-6262-4d9c-88a1-ebb01696c1f1",
+            "a7fe14b6-21c6-4f4f-b080-57a11e7a194e",
+            "f9adf246-4eb7-4aef-b861-f98d8c4af00f",
+            "58c51a3c-7936-49e7-b928-903b1c416572"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 139524,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

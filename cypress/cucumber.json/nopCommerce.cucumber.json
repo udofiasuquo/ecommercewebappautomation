@@ -1,0 +1,88 @@
+[
+  {
+    "description": "    I want to login",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "nopCommerce.feature",
+    "elements": [
+      {
+        "id": "login;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with Valid Credentials",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open nopCommerce login Page",
+            "result": {
+              "status": "passed",
+              "duration": 5830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter valid email and password",
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "click 'Remember Me' and 'Login in' button",
+            "result": {
+              "status": "passed",
+              "duration": 14146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 16903000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter name of product and other details",
+            "result": {
+              "status": "failed",
+              "duration": 50000000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'type')\n    at Context.eval (https://admin-demo.nopcommerce.com/__cypress/tests?p=cypress\\integration\\BDD\\nopCommerce.feature:80:37)\n    at Context.resolveAndRunStepDefinition (https://admin-demo.nopcommerce.com/__cypress/tests?p=cypress\\integration\\BDD\\nopCommerce.feature:12462:29)\n    at Context.eval (https://admin-demo.nopcommerce.com/__cypress/tests?p=cypress\\integration\\BDD\\nopCommerce.feature:11783:35)\nFrom previous event:\n    at Context.thenFn (https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:153798:63)\n    at Context.then (https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:154250:21)\n    at Context.<anonymous> (https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:171965:19)\n    at https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:170643:15\nFrom previous event:\n    at CommandQueue.runCommand (https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:170622:17)\n    at next (https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:170774:19)\n    at https://admin-demo.nopcommerce.com/__cypress/runner/cypress_runner.js:170803:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "click 'Search' button",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

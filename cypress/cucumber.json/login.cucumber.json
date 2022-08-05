@@ -1,0 +1,235 @@
+[
+  {
+    "description": "    I want to login",
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with Valid Credentials",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open nopCommerce login Page",
+            "result": {
+              "status": "passed",
+              "duration": 6165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter valid email and password",
+            "result": {
+              "status": "passed",
+              "duration": 1238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click 'Remember Me' and 'Login in' button",
+            "result": {
+              "status": "passed",
+              "duration": 4543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Dasboard page should display",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;login-with-valid-email-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login with valid email and invalid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open nopCommerce login Page",
+            "result": {
+              "status": "passed",
+              "duration": 5389000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin@yourstore.com",
+                      "Male"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter valid email and invalid password",
+            "result": {
+              "status": "passed",
+              "duration": 1130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I submit",
+            "result": {
+              "status": "passed",
+              "duration": 856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should get an error message",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;login-with-invalid-email-and-valid-password",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Login with invalid email and valid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open nopCommerce login Page",
+            "result": {
+              "status": "passed",
+              "duration": 1928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I enter invalid email as \"adminyourstore.com\" and valid password as \" admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 1087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I submit",
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should get an email error message",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;login-with-blank-email-and-password-fields",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Login with blank email and password fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open nopCommerce login Page",
+            "result": {
+              "status": "passed",
+              "duration": 1492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I leave email and password fields blank",
+            "result": {
+              "status": "passed",
+              "duration": 604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I submit",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Error message displays",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

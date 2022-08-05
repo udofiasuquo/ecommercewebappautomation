@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search Product Functionality",
+    "line": 1,
+    "id": "search-product-functionality",
+    "tags": [],
+    "uri": "search_product.feature",
+    "elements": [
+      {
+        "id": "search-product-functionality;searching-product-by-details",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Searching Product By Details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I log in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 14952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter name of product as \"HP Spectre XT Pro UltraBook\"",
+            "result": {
+              "status": "passed",
+              "duration": 5468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter other product details",
+            "result": {
+              "status": "passed",
+              "duration": 5637000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "click 'Search' button",
+            "result": {
+              "status": "passed",
+              "duration": 828000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-product-functionality;searching-product-by-sku",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Searching Product By SKU",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I log in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I open Product Page",
+            "result": {
+              "status": "passed",
+              "duration": 12840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I Enter product SKU as \"COMP_CUST\" and Search",
+            "result": {
+              "status": "passed",
+              "duration": 17822000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Product Edit page displays",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
